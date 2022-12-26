@@ -97,7 +97,7 @@ async def paste_func(_, message: Message):
             await message.reply_photo(photo=link,quote=False,caption="تم نسخ النص",reply_markup=InlineKeyboardMarkup(kb),)
         await m.delete()
     except Exception:
-        await m.edit("‹ فتح الرابط ›", reply_markup=InlineKeyboardMarkup(kb))
+        await m.edit("فتح الرابط", reply_markup=InlineKeyboardMarkup(kb))
 
 
 @app.on_message(command(["ميديا", "/tm", "tgm"]))
@@ -122,7 +122,7 @@ async def telegraph(client, message):
     finally:
         os.remove(download_location)
     
-@app.on_message(command(["كول"])
+@app.on_message(command(["قول"])
     & filters.group
     & ~filters.channel
     & ~filters.edited
@@ -144,7 +144,7 @@ async def ahmad(client: Client, message: Message):
   await message.reply_photo(
     photo=config.START_IMG_URL,
     caption=f"""**⌁ اهلا بك في اوامر سورس ايفان ميوزك ⌁**
-    
+    
 تشغيل ، شغل : اسم الأغنية او رابط يوتيوب ⌁
 
 تشغيل ، قناة ، قناه : لتشغيل الاغاني داخل القناة ⌁
@@ -161,9 +161,9 @@ async def ahmad(client: Client, message: Message):
         reply_markup=InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton(f"‹ 𝖣𝖾𝗏𝖤𝗏𝖺𝗇 𝖳𝖾𝖠𝗆 ›", url=f"https://t.me/vrrrrvr"),
+                InlineKeyboardButton(f"{YAFA_NAME}", url=f"{YAFA_CHANNEL}"),
                 ],[
-                InlineKeyboardButton(f"‹ قناة  الشروحات ›", url=f"https://t.me/DJJJJJe"),
+                InlineKeyboardButton(f"‹ قناة الشروحات ›", url=f"https://t.me/DJJJJJe"),
                 ],[
                 InlineKeyboardButton("‹ اضفني الى مجموعتك ›", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
                 ]
@@ -181,20 +181,16 @@ async def ahmad(client: Client, message: Message):
 )
 async def ahmad(client: Client, message: Message):
     await message.reply_photo(
-        photo=config.PLAYLIST_IMG_URL,
-        caption=f"""**Welcome to Source Music Evan**""",
+        photo=config.START_IMG_URL,
+        caption=f"""**⌁ Welcome to Source Music Evan ⌁**""",
         reply_markup=InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("‹ المبرمج ›", url=f"{SUDO_USER}",
-                ),
-                InlineKeyboardButton(f"‹ السورس ›", url=f"https://t.me/vrrrrvr",),
-                ),
-            ],
-            [
-                InlineKeyboardButton("‹ اضفني الى مجموعتك ›", url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
-                ),
-                InlineKeyboardButton("‹ قناة  الشروحات ›", url=f"https://t.me/DJJJJJe",),
+                InlineKeyboardButton(f"{YAFA_NAME}", url=f"{YAFA_CHANNEL}"),
+                ],[
+                InlineKeyboardButton(f"‹ قناة الشروحات ›", url=f"https://t.me/DJJJJJe"),
+                ],[
+                InlineKeyboardButton("‹ مبرمج السورس ›", url=f"https://t.me/GGG66"),
                 ]
             ]
         ),
