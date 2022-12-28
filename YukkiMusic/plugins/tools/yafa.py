@@ -1,5 +1,5 @@
-# Dev : https://t me/YY8GG
-#Group : https://t.me/YaFaGr
+# Dev : https://t me/GGG66
+#Chanel : https://t.me/vrrrrvr
 import requests
 from strings.filters import command
 from gpytranslate import Translator
@@ -122,7 +122,7 @@ async def telegraph(client, message):
     finally:
         os.remove(download_location)
     
-@app.on_message(command(["قول"])
+@app.on_message(command(["كول"])
     & filters.group
     & ~filters.channel
     & ~filters.edited
@@ -145,19 +145,19 @@ async def ahmad(client: Client, message: Message):
     photo=config.START_IMG_URL,
     caption=f"""**⌁ اهلا بك في اوامر سورس ايفان ميوزك ⌁**
     
-تشغيل ، شغل : اسم الأغنية او رابط يوتيوب ⌁
+تشغيل` ، `شغل` : اسم الأغنية او رابط يوتيوب` ⌁
 
-تشغيل ، قناة ، قناه : لتشغيل الاغاني داخل القناة ⌁
+تشغيل` ، `قناة` ، `قناه` : لتشغيل الاغاني داخل القناة` ⌁
 
-ايقاف ، انهاء : لأنهاء التشغيل الحالي بالكامل ⌁
+ايقاف` ، `انهاء` : لأنهاء التشغيل الحالي بالكامل` ⌁
 
-تخطي : لتخطي مسار الأغنية المشغله ⌁
+تخطي` : لتخطي مسار الأغنية المشغله` ⌁
 
-كتم : لكتم صوت الموسيقى المشغله ⌁
+كتم` : لكتم صوت الموسيقى المشغله` ⌁
 
-الغاء كتم : لإلغاء كتم صوت الموسيقى ⌁
+الغاء كتم` : لإلغاء كتم صوت الموسيقى` ⌁
 
-كول + الكلمه ⌁""",
+كول` + الكلمه` ⌁""",
         reply_markup=InlineKeyboardMarkup(
         [
             [
