@@ -83,7 +83,7 @@ SUPPORT_CHANNEL = getenv(
     "SUPPORT_CHANNEL", "https://t.me/vrrrrvr"
 )  # رابط قناتك
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/vrrrrvr"
+    "SUPPORT_GROUP", "https://t.me/DJJJJJe"
 )  # رابط كروبك
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
@@ -91,7 +91,7 @@ AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "true")
 
 # Time after which you're assistant account will leave chats automatically.
 AUTO_LEAVE_ASSISTANT_TIME = int(
-    getenv("ASSISTANT_LEAVE_TIME", "5400")
+    getenv("ASSISTANT_LEAVE_TIME", "3500")
 )  # Remember to give value in Seconds
 
 # Time after which bot will suggest random chats about bot commands.
@@ -187,7 +187,7 @@ PING_IMG_URL = getenv(
     "assets/Ping.jpeg",
 )
 
-PLAYLIST_IMG_URL = getenv(
+PLAYLIST_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph//file/ca6c012442c2e32c4fdb0.jpg")
     "PLAYLIST_IMG_URL",
     "assets/Playlist.jpeg",
 )
