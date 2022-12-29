@@ -71,10 +71,10 @@ CHANNEL_SUDO = getenv(
     "CHANNEL_SUDO", "vrrrrvr"
 )  # معرف قناتك بدون @
 YAFA_NAME = getenv(
-    "YAFA_NAME", "‹ 𝖣𝖾𝗏𝖤𝗏𝖺𝗇 𝖳𝖾𝖠𝗆 ."
+    "YAFA_NAME", "إكتئاب"
 )  # اسم قناتك
 YAFA_CHANNEL = getenv(
-   " YAFA_CHANNEL", "https://t.me/vrrrrvr"
+   " YAFA_CHANNEL", "https://t.me/Mazreading"
 )  # رابط قناتك
 SUDO_USER =getenv(
     "SUDO_USER", "https://t.me/GGG66"
@@ -180,7 +180,7 @@ autoclean = []
 
 
 # Images
-START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/7d7514bba5c8c0c3a5c4a.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/a4ee673a979c8da0795b7.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
