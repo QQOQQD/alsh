@@ -71,7 +71,7 @@ CHANNEL_SUDO = getenv(
     "CHANNEL_SUDO", "vrrrrvr"
 )  # معرف قناتك بدون @
 YAFA_NAME = getenv(
-    "YAFA_NAME", "إكتئاب"
+    "YAFA_NAME", "Depression"
 )  # اسم قناتك
 YAFA_CHANNEL = getenv(
    " YAFA_CHANNEL", "https://t.me/Mazreading"
