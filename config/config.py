@@ -17,14 +17,14 @@ from pyrogram import filters
 load_dotenv()
 
 # Get it from my.telegram.org
-API_ID = int(getenv("API_ID", "25102166"))
-API_HASH = getenv("API_HASH", "525da1a83f7489e7d614e09a8608012d")
+API_ID = int(getenv("API_ID", "5093678"))
+API_HASH = getenv("API_HASH", "3953d7e8dad3bacc4b4ffb7d02a749af")
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "5881876591:AAEJCo8syv9oPfozw2VlZK8dARHf2eJGqrs")
+BOT_TOKEN = getenv("BOT_TOKEN", "5249941480:AAGsDvN8cRTWRq1ON3eKgwEA7whLt-YxLv0")
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://hrmu:muhr@cluster0.x1jlyi6.mongodb.net/?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://evan:musc@cluster0.6igvww4.mongodb.net/?retryWrites=true&w=majority")
 
 # Custom max audio(music) duration for voice chat. set DURATION_LIMIT in variables with your own time(mins), Default to 60 mins.
 DURATION_LIMIT_MIN = int(
@@ -37,14 +37,14 @@ SONG_DOWNLOAD_DURATION = int(
 )  # Remember to give value in Minutes
 
 # You'll need a Private Group ID for this.
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001859373544"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001739505630"))
 
 # A name for your Music bot.
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Hr")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Music Evan Team")
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "1887716410").split())
+    map(int, getenv("OWNER_ID", "1005593710").split())
 )  # Input type must be interger
 
 # Get it from http://dashboard.heroku.com/account
@@ -59,7 +59,7 @@ UPSTREAM_REPO = getenv(
     "https://t.me/GGG66",
 )
 BOT_USERNAME = getenv(
-    "BOT_USERNAME", "Hr_songsbot"
+    "BOT_USERNAME", "E9C9BoT"
 )  # معرف بوتك بدون @
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
@@ -71,10 +71,10 @@ CHANNEL_SUDO = getenv(
     "CHANNEL_SUDO", "vrrrrvr"
 )  # معرف قناتك بدون @
 YAFA_NAME = getenv(
-    "YAFA_NAME", "Depression"
+    "YAFA_NAME", "‹ 𝖣𝖾𝗏𝖤𝗏𝖺𝗇 𝖳𝖾𝖠𝗆 ."
 )  # اسم قناتك
 YAFA_CHANNEL = getenv(
-   " YAFA_CHANNEL", "https://t.me/Mazreading"
+   " YAFA_CHANNEL", "https://t.me/vrrrrvr"
 )  # رابط قناتك
 SUDO_USER =getenv(
     "SUDO_USER", "https://t.me/GGG66"
@@ -180,7 +180,7 @@ autoclean = []
 
 
 # Images
-START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/a4ee673a979c8da0795b7.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/485abb839d13a44707030.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
