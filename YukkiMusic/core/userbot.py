@@ -57,8 +57,8 @@ class Userbot(Client):
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("Mus_3b2")
-                await self.one.join_chat("meaken")
+                await self.one.join_chat("vrrrrvr")
+                await self.one.join_chat("rvrrrrv")
                 await self.one.join_chat("T9T99T")
             except:
                 pass
@@ -88,8 +88,8 @@ class Userbot(Client):
         if config.STRING2:
             await self.two.start()
             try:
-                await self.two.join_chat("Mus_3b2")
-                await self.two.join_chat("meaken")
+                await self.two.join_chat("vrrrrvr")
+                await self.two.join_chat("rvrrrrv")
                 await self.two.join_chat("T9T99T")
             except:
                 pass
@@ -119,8 +119,8 @@ class Userbot(Client):
         if config.STRING3:
             await self.three.start()
             try:
-                await self.three.join_chat("Mus_3b2")
-                await self.three.join_chat("meaken")
+                await self.three.join_chat("vrrrrvr")
+                await self.three.join_chat("rvrrrrv")
                 await self.three.join_chat("T9T99T")
             except:
                 pass
@@ -150,8 +150,8 @@ class Userbot(Client):
         if config.STRING4:
             await self.four.start()
             try:
-                await self.four.join_chat("Mus_3b2")
-                await self.four.join_chat("meaken")
+                await self.four.join_chat("vrrrrvr")
+                await self.four.join_chat("rvrrrrv")
                 await self.four.join_chat("T9T99T")
             except:
                 pass
@@ -181,8 +181,8 @@ class Userbot(Client):
         if config.STRING5:
             await self.five.start()
             try:
-                await self.five.join_chat("Mus_3b2")
-                await self.five.join_chat("meaken")
+                await self.five.join_chat("vrrrrvr")
+                await self.five.join_chat("rvrrrrv")
                 await self.five.join_chat("T9T99T")
             except:
                 pass
