@@ -59,7 +59,7 @@ UPSTREAM_REPO = getenv(
     "https://github.com/YafaMusic/YaMusicBot",
 )
 BOT_USERNAME = getenv(
-    "BOT_USERNAME", "SN10BOT"
+    "BOT_USERNAME", "neu8bot"
 )  # معرف بوتك بدون @
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
@@ -80,7 +80,7 @@ SUPPORT_CHANNEL = getenv(
     "SUPPORT_CHANNEL", "https://t.me/QQOQQD"
 )  # رابط قناتك
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/SN10BOT"
+    "SUPPORT_GROUP", "https://t.me/QQOQQD"
 )  # رابط كروبك
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
@@ -112,7 +112,7 @@ YOUTUBE_DOWNLOAD_EDIT_SLEEP = int(getenv("YOUTUBE_EDIT_SLEEP", "3"))
 TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "5"))
 
 # Your Github Repo.. Will be shown on /start Command
-GITHUB_REPO = getenv("GITHUB_REPO", "https://t.me/JJPJB")
+GITHUB_REPO = getenv("GITHUB_REPO", "https://t.me/Or_33")
 
 # Spotify Client.. Get it from https://developer.spotify.com/dashboard
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", None)
@@ -177,7 +177,7 @@ autoclean = []
 
 
 # Images
-START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/5291b12300180595da452.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/e7dbdff74ac757e9a2a0c.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
